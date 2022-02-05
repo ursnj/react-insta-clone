@@ -1,0 +1,67 @@
+.timeline {
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.post {
+    margin-bottom: 15px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+}
+
+.post-header {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-header-left > img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px  ;
+    border-radius: 50%;
+}
+
+.post-image > img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.post-actions {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-actions > .left > span {
+    padding-right: 15px;
+}
+
+.strong {
+    font-weight: bolder;
+}
+
+.post-content{
+    padding: 15px;
+}
+
+p {
+    line-height: 22px;
+}
+
+.light {
+    font-size: 13px;
+    color: #cbcbcb;
+}
