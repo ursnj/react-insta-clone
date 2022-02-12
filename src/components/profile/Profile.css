@@ -1,0 +1,32 @@
+.user-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-img > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-desc p {
+    margin: 5px 0px;
+}
+.user-desc > button {
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+}
