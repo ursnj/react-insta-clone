@@ -18,7 +18,7 @@
     flex-direction: row;
     height: calc(100vh - 160px);
 }
-.menu {
+.menu1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
