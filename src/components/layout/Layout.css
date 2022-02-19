@@ -1,0 +1,41 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    /*height: 100vh;*/
+}
+.header {
+    display: flex;
+    height: 80px;
+    background: #cbcbcb;
+}
+.footer {
+    display: flex;
+    height: 80px;
+    background: #cbcbcb;
+}
+.body {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 160px);
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    background: darkred;
+}
+.content {
+    display: flex;
+    width: 100%;
+    background: red;
+}
+
+.menu > .item {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
